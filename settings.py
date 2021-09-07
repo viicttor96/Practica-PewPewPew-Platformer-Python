@@ -1,0 +1,61 @@
+WIDTH = 640
+HEIGHT = 480
+FPS = 60
+
+TILE_SIZE = 20
+
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+DARK_GREY = (32,32,32)
+LIGHT_GREY = (180,180,180)
+RED = (255,0,0)
+GREEN = (0,255,0)
+DARK_GREEN = (0,100,0)
+BLUE = (0,0,255)
+SKIN = (238, 195, 154)
+YELLOW = (255,255,0)
+ORANGE = (255, 128, 0)
+BROWN = (80,40,12)
+
+GRAVITY = 1000
+TERMINAL_VELOCITY = 500
+ 
+PLAYER_HEALTH = 100
+PLAYER_SPEED = 250
+PLAYER_JUMP = 250
+
+DOUBLEJUMP_AVAILABLE = 2
+DOUBLEJUMP_READY = 1
+DOUBLEJUMP_UNAVAILABLE = 0
+
+WASP_SPEED = 75
+WASP_HEALTH = 25
+WASP_DAMAGE = 1
+
+WASP_NEST_HEALTH = 100
+WASP_NEST_SPAWN_FREQ = 5000
+
+
+
+WEAPONS = {
+    'GUN':
+    {
+        'SPEED' : 500,
+        'FIRING_RATE' : 100,
+        'COLOR' : ORANGE,
+        'TTL' : 1000,
+        'SPREAD' : 0.1,
+        'DMG' : 2,
+        'AMMO_PER_SHOT' : 1,
+    },
+    'SHOTGUN':
+    {
+        'SPEED' : 500,
+        'FIRING_RATE' : 500,
+        'COLOR' : ORANGE,
+        'TTL' : 300,
+        'SPREAD' : 0.3,
+        'DMG' : 2,
+        'AMMO_PER_SHOT' : 5,
+    }
+}
